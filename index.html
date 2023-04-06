@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first landing page</title>
-    <link rel="stylesheet" href="./assets/styles.css"/>
+    <link rel="stylesheet" href="./assets/styles.css" />
 </head>
+
 <body>
     <header>
-        <nav>
+        <nav class="nav">
             <ul>
-                <li>Github</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+                <!-- add links ahref -->
+                <li><a href="">Github</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="content">
         <h1>My first Website</h1>
-        <figure>
-            
+        <figure class="hero">
+            <img src="./assets/images/placeholder.png" alt="placeholder">
         </figure>
         <figcaption>Hello, My name is Oliver </figcaption>
+        <section class="content">
+            <form class="contact">
+                <h2>Contact Me</h2>
+                <ul>
+                    <li><label for="name">Name</label>
+                    <input id="name" type="text"></li>
+                    <li><label for="email">Email</label>
+                    <input id="email" type="text"></li>
+                    <li><button>Send</button></li>
+                </ul>
+                
+            </form>
+        </section>
     </main>
-    <form>
-        <h2>Contact Me</h2>
-        <label for="name">Name</label>
-        <input id="name" type="text">
-        <label for="email">Email</label>
-        <input id="email" type="text">
-    </form>
     <footer>
-       <p> &copy; 2023 My website productions</p>
+        <p> &copy; 2023 My website productions</p>
     </footer>
 </body>
+
 </html>
